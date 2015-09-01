@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title>Factual API Test Mule</title>
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/custom.css">
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/app.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB6gr2x_5tRO07och-OMr44GFjGA_zmGxc"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="page-header">
+  				<h1>Factual API Test Mule</h1>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div id="formError">
+						<!-- Form Error text will be placed here -->
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<form>
+						<div class="form-group">
+							<label for="searchTerm">Search Factual API for</label>
+							<input type="text" class="form-control" id="searchTerm" placeholder="Places to hang out...">
+						</div>
+						<button type="submit" class="btn btn-default" id="searchBtn">
+  							<i class="fa fa-location-arrow"></i> Nearby
+						</button>
+					</form>
+				</div>
+			</div>
+			<hr/>
+			<div class="row">
+				<div class="col-md-12">
+					<!-- Google Map will get loaded here -->
+					<div id="map">
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12" id="searchResults">
+					<p class="text-center">Search results will appear here.</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html

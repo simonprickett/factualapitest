@@ -1,0 +1,11 @@
+{
+	"name": "factualapiserver",
+	"version": "0.0.1",
+	"description": "Test server for Factual API calls.",
+	"dependencies": {
+		"express": "4.x",
+		"cors": "2.4.x",
+		"body-parser": "1.8.x",
+		"factual-api": "1.0.7"
+	}
+}
